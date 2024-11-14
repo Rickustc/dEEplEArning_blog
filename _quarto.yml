@@ -1,14 +1,15 @@
+#主页样式配置
 project:  
   type: website  # Defines project as a website
   output-dir: docs  # Output files in the "docs" folder
 
 website:
-  announcement:  # Site-wide alert banner
-    icon: info-circle  
-    dismissable: true  
-    content: "**Alert** - You are welcome to use any template, but please do not use my posts."
-    type: primary  
-    position: above-navbar  
+  # announcement:  # Site-wide alert banner
+  #   icon: info-circle  
+  #   dismissable: true  
+  #   content: ""
+  #   type: primary  
+  #   position: above-navbar  
   title: "Home"  # Website title
   repo-url: https://github.com/your-username/your-repo  # Replace with your GitHub repository URL
   open-graph: true  # Enables Open Graph for social media
@@ -31,16 +32,16 @@ website:
         href: https://github.com/Rickustc  # Replace with your GitHub profile URL
       - icon: envelope  
         href: mailto:wrqbme@mail.ustc.edu.cn  # Replace with your email address
-  page-footer:  # Footer settings
-    background: "#F8F2FF"  
-    left: "Made with 💜 and [Quarto](https://quarto.org/)"  
-    right:  
-      - icon: twitter  
-        href: https://x.com/rick_drb  # Replace with your Twitter profile URL
-      - icon: github  
-        href: https://github.com/Rickustc  # Replace with your GitHub profile URL
-      - icon: envelope  
-        href: mailto:wrqbme@mail.ustc.edu.cn # Replace with your email address
+  # page-footer:  # Footer settings
+  #   background: "#F8F2FF"  
+  #   # left: "Made with 💜 and [Quarto](https://quarto.org/)"  
+  #   right:  
+  #     - icon: twitter  
+  #       href: https://x.com/rick_drb  # Replace with your Twitter profile URL
+  #     - icon: github  
+  #       href: https://github.com/Rickustc  # Replace with your GitHub profile URL
+  #     - icon: envelope  
+  #       href: mailto:wrqbme@mail.ustc.edu.cn # Replace with your email address
 
 format:  
   html:  
