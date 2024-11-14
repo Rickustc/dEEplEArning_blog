@@ -1,0 +1,26 @@
+{
+  "posts/post-with-code/index.qmd": {
+    "index.html": "020cbd7a"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "67e2d767"
+  },
+  "index.qmd": {
+    "index.html": "43a8047f"
+  },
+  "resource/resource.qmd": {
+    "resource.html": "04917b90"
+  },
+  "blog.qmd": {
+    "blog.html": "865b8a8d"
+  },
+  "talk.qmd": {
+    "talk.html": "96ab32c4"
+  },
+  "talks/cvpr2024-diffusion/index.qmd": {
+    "index.html": "1d06f006"
+  },
+  "talks.qmd": {
+    "talks.html": "9ffe59b0"
+  }
+}

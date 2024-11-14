@@ -1,0 +1,24 @@
+/*-- scss:defaults --*/
+
+// Define variables
+$main-color: rgb(50, 168, 96);
+$shadow-color: rgb(168, 50, 68);
+$transplate-color: rgb(168, 125, 50);
+$dark-color: rgb(50, 144, 168);
+$light-color: rgb(248, 242, 255);
+$font-color: rgb(12, 12, 12);
+$blockquote-color: rgb(17, 11, 11);
+$bg-color: rgb(248, 242, 255);
+$bg-body-color: rgb(251,248,255);
+$light-blue: rgb(0,122,204);
+// Define rule
+$primary:  $main-color;
+$navbar-bg: $transplate-color;
+$footer-bg: $bg-color;
+$body-bg: $bg-body-color;
+$body-color: $font-color;
+$code-block-bg-alpha: -0.2;
+$code-block-bg: $light-color;
+$code-bg: $light-blue;
+$toc-color: $shadow-color;
+$btn-code-copy-color: $shadow-color;

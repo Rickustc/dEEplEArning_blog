@@ -1,0 +1,15 @@
+{
+  "hash": "441534b2ca09a49c4e56b68fe6235f03",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"VLM\"\nauthor: \"Rick \"\ndate: \"2024-10-18\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\nformat: \n  html:\n    code-fold: true\n    code-copy: true  # 代码块显示复制按钮\n    code-overflow: 'scroll'\n    toc: true\n    toc-depth: 3\n    number-sections: true\n    editor: visual\nknitr:\n  opts_chunk: \n    fig.path: \"image/\"\n    collapse: true\n    comment: \"#>|\"\neditor_options: \n  chunk_output_type: console\n---\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

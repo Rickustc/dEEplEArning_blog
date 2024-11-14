@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://your-username.github.io/your-website/blog.html</loc>
+    <lastmod>2024-10-20T16:05:06.865Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-username.github.io/your-website/index.html</loc>
+    <lastmod>2024-10-21T08:22:51.776Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-username.github.io/your-website/talks.html</loc>
+    <lastmod>2024-10-21T06:55:05.288Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-username.github.io/your-website/posts/post-with-code/index.html</loc>
+    <lastmod>2024-11-14T08:14:07.164Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-username.github.io/your-website/posts/welcome/index.html</loc>
+    <lastmod>2024-10-20T16:05:06.867Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-username.github.io/your-website/talks/cvpr2024-diffusion/index.html</loc>
+    <lastmod>2024-10-21T09:39:33.712Z</lastmod>
+  </url>
+  <url>
+    <loc>https://your-username.github.io/your-website/resource/resource.html</loc>
+    <lastmod>2024-10-20T16:05:06.868Z</lastmod>
+  </url>
+</urlset>

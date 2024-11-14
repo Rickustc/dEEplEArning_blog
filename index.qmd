@@ -1,0 +1,17 @@
+---
+title: "You see, but you do not observe."
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://x.com/rick_drb  # Replace with your Twitter profile URL
+    - icon: envelope
+      text: Email
+      href: mailto:wrqbme@mail.ustc.edu.cn # Replace with your email address
+    - icon: github
+      text: Github
+      href: https://github.com/Rickustc # Replace with your GitHub profile URL
+---
+

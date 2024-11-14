@@ -1,0 +1,27 @@
+---
+title: "VLM"
+author: "Rick "
+date: "2024-10-18"
+categories: [news, code, analysis]
+image: "image.jpg"
+format: 
+  html:
+    code-fold: true
+    code-copy: true  # 代码块显示复制按钮
+    code-overflow: 'scroll'
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    editor: visual
+knitr:
+  opts_chunk: 
+    fig.path: "image/"
+    collapse: true
+    comment: "#>|"
+editor_options: 
+  chunk_output_type: console
+---
+
+
+
+

@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Home",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 18, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 15, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Talks\nWelcome to my talks page. Here you can find a collection of talks about cv & ml\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nVLM\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 18, 2024\n\n\nRick\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\nCode\n1 + 1\n#&gt;| [1] 2"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#merriweather",
+    "href": "posts/post-with-code/index.html#merriweather",
+    "title": "Post With Code",
+    "section": "2.1 Merriweather",
+    "text": "2.1 Merriweather\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit est nec dui eleifend, at dictum elit ullamcorper. Aliquam feugiat dictum bibendum. Praesent fermentum laoreet quam, cursus volutpat odio dapibus in. Fusce luctus porttitor vehicula. Donec ac tortor nisi. Donec at lectus tortor. Morbi tempor, nibh non euismod viverra, metus arcu aliquet elit, sed fringilla urna leo vel purus.\n\n2.1.1 Code\nThis is inline code plus a small code chunk.\n\n\nCode\nclass A:\n    def __init__(self):\n        pass\n\n\n\n\n2.1.2 Tabsets\n\n#&gt;| ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n#&gt;| ✔ dplyr     1.1.4     ✔ readr     2.1.5\n#&gt;| ✔ forcats   1.0.0     ✔ stringr   1.5.1\n#&gt;| ✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n#&gt;| ✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n#&gt;| ✔ purrr     1.0.2     \n#&gt;| ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n#&gt;| ✖ dplyr::filter() masks stats::filter()\n#&gt;| ✖ dplyr::lag()    masks stats::lag()\n#&gt;| ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\n\nTransforming OLS estimatesMaximizing likelihood\n\n\n\n\nCode\npreds_lm %&gt;% \n  ggplot(aes(body_mass_g, bill_length_mm, col = correct)) +\n  geom_jitter(size = 4, alpha = 0.6) +\n  facet_wrap(vars(species)) +\n  scale_color_manual(values = c('grey60', thematic::okabe_ito(3)[3])) +\n  scale_x_continuous(breaks = seq(3000, 6000, 1000)) +\n  theme_minimal(base_size = 12) +\n  theme(\n    legend.position = 'top', \n    panel.background = element_rect(color = 'black'),\n    panel.grid.minor = element_blank()\n  ) +\n  labs(\n    x = 'Body mass (in g)',\n    y = 'Bill length (in mm)'\n  )\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nglm.mod &lt;- glm(sex ~ body_mass_g + bill_length_mm + species, family = binomial, data = dat)\n\npreds &lt;- dat %&gt;% \n  mutate(\n    prob.fit = glm.mod$fitted.values,\n    prediction = if_else(prob.fit &gt; 0.5, 'male', 'female'),\n    correct = if_else(sex == prediction, 'correct', 'incorrect')\n  )\n\n\npreds %&gt;% \n  ggplot(aes(body_mass_g, bill_length_mm, col = correct)) +\n  geom_jitter(size = 4, alpha = 0.6) +\n  facet_wrap(vars(species)) +\n  scale_x_continuous(breaks = seq(3000, 6000, 1000)) +\n  scale_color_manual(values = c('grey60', thematic::okabe_ito(3)[3])) +\n  theme_minimal(base_size = 10) +\n  theme(\n    legend.position = 'top', \n    panel.background = element_rect(color = 'black'),\n    panel.grid.minor = element_blank()\n  ) +\n  labs(\n    x = 'Body mass (in g)',\n    y = 'Bill length (in mm)'\n  )"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#some-math-stuff",
+    "href": "posts/post-with-code/index.html#some-math-stuff",
+    "title": "Post With Code",
+    "section": "2.2 Some math stuff",
+    "text": "2.2 Some math stuff\n\\[\n\\int_0^1 f(x) \\ dx\n\\]"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#columns",
+    "href": "posts/post-with-code/index.html#columns",
+    "title": "Post With Code",
+    "section": "2.3 Columns",
+    "text": "2.3 Columns\n\n\n\n\nCode\ngeom_density(\n  mapping = NULL,\n  data = NULL,\n  stat = \"density\",\n  position = \"identity\",\n  ...,\n  na.rm = FALSE,\n  orientation = NA,\n  show.legend = NA,\n  inherit.aes = TRUE,\n  outline.type = \"upper\"\n)\n\n\n\n\n\n\nCode\nstat_density(\n  mapping = NULL,\n  data = NULL,\n  geom = \"area\",\n  position = \"stack\",\n  ...,\n  bw = \"nrd0\",\n  adjust = 1,\n  kernel = \"gaussian\",\n  n = 512,\n  trim = FALSE,\n  na.rm = FALSE,\n  orientation = NA,\n  show.legend = NA,\n  inherit.aes = TRUE\n)"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#margin-captions",
+    "href": "posts/post-with-code/index.html#margin-captions",
+    "title": "Post With Code",
+    "section": "2.4 Margin captions",
+    "text": "2.4 Margin captions\n\n\nCode\nggplot(data = gapminder::gapminder, mapping = aes(x = lifeExp, fill = continent)) +\n  stat_density(position = \"identity\", alpha = 0.5)\n\n\n\n\n\nBla bla bla. This is a caption in the margin. Super cool isn’t it?"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "talks/cvpr2024-diffusion/index.html",
+    "href": "talks/cvpr2024-diffusion/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "talks/cvpr2024-diffusion/index.html#merriweather",
+    "href": "talks/cvpr2024-diffusion/index.html#merriweather",
+    "title": "Post With Code",
+    "section": "1.1 Merriweather",
+    "text": "1.1 Merriweather\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit est nec dui eleifend, at dictum elit ullamcorper. Aliquam feugiat dictum bibendum. Praesent fermentum laoreet quam, cursus volutpat odio dapibus in. Fusce luctus porttitor vehicula. Donec ac tortor nisi. Donec at lectus tortor. Morbi tempor, nibh non euismod viverra, metus arcu aliquet elit, sed fringilla urna leo vel purus.\n\n1.1.1 Code\nThis is inline code plus a small code chunk.\n\n\nCode\nlibrary(tidyverse)\n#&gt;| ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n#&gt;| ✔ dplyr     1.1.4     ✔ readr     2.1.5\n#&gt;| ✔ forcats   1.0.0     ✔ stringr   1.5.1\n#&gt;| ✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n#&gt;| ✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n#&gt;| ✔ purrr     1.0.2     \n#&gt;| ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n#&gt;| ✖ dplyr::filter() masks stats::filter()\n#&gt;| ✖ dplyr::lag()    masks stats::lag()\n#&gt;| ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nggplot(mpg) +\n  geom_jitter(aes(cty, hwy), size = 4, alpha = 0.5) \n\n\n\n\n\n\n\n\n\n\n\n1.1.2 Tabsets\n\nTransforming OLS estimatesMaximizing likelihood\n\n\n\n\nCode\npreds_lm %&gt;% \n  ggplot(aes(body_mass_g, bill_length_mm, col = correct)) +\n  geom_jitter(size = 4, alpha = 0.6) +\n  facet_wrap(vars(species)) +\n  scale_color_manual(values = c('grey60', thematic::okabe_ito(3)[3])) +\n  scale_x_continuous(breaks = seq(3000, 6000, 1000)) +\n  theme_minimal(base_size = 12) +\n  theme(\n    legend.position = 'top', \n    panel.background = element_rect(color = 'black'),\n    panel.grid.minor = element_blank()\n  ) +\n  labs(\n    x = 'Body mass (in g)',\n    y = 'Bill length (in mm)'\n  )\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode\nglm.mod &lt;- glm(sex ~ body_mass_g + bill_length_mm + species, family = binomial, data = dat)\n\npreds &lt;- dat %&gt;% \n  mutate(\n    prob.fit = glm.mod$fitted.values,\n    prediction = if_else(prob.fit &gt; 0.5, 'male', 'female'),\n    correct = if_else(sex == prediction, 'correct', 'incorrect')\n  )\n\n\npreds %&gt;% \n  ggplot(aes(body_mass_g, bill_length_mm, col = correct)) +\n  geom_jitter(size = 4, alpha = 0.6) +\n  facet_wrap(vars(species)) +\n  scale_x_continuous(breaks = seq(3000, 6000, 1000)) +\n  scale_color_manual(values = c('grey60', thematic::okabe_ito(3)[3])) +\n  theme_minimal(base_size = 10) +\n  theme(\n    legend.position = 'top', \n    panel.background = element_rect(color = 'black'),\n    panel.grid.minor = element_blank()\n  ) +\n  labs(\n    x = 'Body mass (in g)',\n    y = 'Bill length (in mm)'\n  )"
+  },
+  {
+    "objectID": "talks/cvpr2024-diffusion/index.html#some-math-stuff",
+    "href": "talks/cvpr2024-diffusion/index.html#some-math-stuff",
+    "title": "Post With Code",
+    "section": "1.2 Some math stuff",
+    "text": "1.2 Some math stuff\n\\[\n\\int_0^1 f(x) \\ dx\n\\]"
+  },
+  {
+    "objectID": "talks/cvpr2024-diffusion/index.html#columns",
+    "href": "talks/cvpr2024-diffusion/index.html#columns",
+    "title": "Post With Code",
+    "section": "1.3 Columns",
+    "text": "1.3 Columns\n\n\n\n\nCode\ngeom_density(\n  mapping = NULL,\n  data = NULL,\n  stat = \"density\",\n  position = \"identity\",\n  ...,\n  na.rm = FALSE,\n  orientation = NA,\n  show.legend = NA,\n  inherit.aes = TRUE,\n  outline.type = \"upper\"\n)\n\n\n\n\n\n\nCode\nstat_density(\n  mapping = NULL,\n  data = NULL,\n  geom = \"area\",\n  position = \"stack\",\n  ...,\n  bw = \"nrd0\",\n  adjust = 1,\n  kernel = \"gaussian\",\n  n = 512,\n  trim = FALSE,\n  na.rm = FALSE,\n  orientation = NA,\n  show.legend = NA,\n  inherit.aes = TRUE\n)"
+  },
+  {
+    "objectID": "talks/cvpr2024-diffusion/index.html#margin-captions",
+    "href": "talks/cvpr2024-diffusion/index.html#margin-captions",
+    "title": "Post With Code",
+    "section": "1.4 Margin captions",
+    "text": "1.4 Margin captions\n\n\nCode\nggplot(data = gapminder::gapminder, mapping = aes(x = lifeExp, fill = continent)) +\n  stat_density(position = \"identity\", alpha = 0.5)\n\n\n\n\n\nBla bla bla. This is a caption in the margin. Super cool isn’t it?"
+  },
+  {
+    "objectID": "resource/resource.html",
+    "href": "resource/resource.html",
+    "title": "Some Resouces",
+    "section": "",
+    "text": "Resouce of blabla"
+  }
+]
