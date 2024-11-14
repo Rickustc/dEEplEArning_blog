@@ -22,5 +22,14 @@
   },
   "talks.qmd": {
     "talks.html": "9ffe59b0"
+  },
+  "talks/cvpr2024-diffusion/talks.qmd": {
+    "talks.html": "6436870b"
+  },
+  "talks/cvpr/index.qmd": {
+    "index.html": "708c9106"
+  },
+  "posts/扩散模型（一）/index.qmd": {
+    "index.html": "6779f5ff"
   }
 }
