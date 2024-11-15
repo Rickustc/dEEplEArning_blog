@@ -2,8 +2,8 @@
 title: "扩散模型（一）"
 author: "rick"
 date: "2024-11-13"
-categories: [news, code, analysis]
-image: "image.jpg"
+categories: [Diffusion model]
+image: "diffusion model.png"
 format: 
   html:
     code-fold: true
@@ -21,7 +21,7 @@ knitr:
 editor_options: 
   chunk_output_type: console
 ---
-这一章要开始讲DDPM了
+
 
 <!--more-->
 
