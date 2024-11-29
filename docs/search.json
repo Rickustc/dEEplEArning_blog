@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Home",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n扩散模型（二）\n\n\n\n\n\n\nDiffusion model\n\n\n\n\n\n\n\n\n\nNov 29, 2024\n\n\nrick\n\n\n\n\n\n\n\n\n\n\n\n\n扩散模型（一）\n\n\n\n\n\n\nDiffusion model\n\n\n\n\n\n\n\n\n\nNov 13, 2024\n\n\nrick\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 18, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 15, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n量化知识梳理\n\n\n\n\n\n\nDiffusion model\n\n\n\n\n\n\n\n\n\nNov 29, 2024\n\n\nrick\n\n\n\n\n\n\n\n\n\n\n\n\n扩散模型（一）\n\n\n\n\n\n\nDiffusion model\n\n\n\n\n\n\n\n\n\nNov 13, 2024\n\n\nrick\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nOct 18, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nOct 15, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "talks.html",
@@ -65,9 +65,9 @@
   {
     "objectID": "posts/量化基本概念小节/index.html",
     "href": "posts/量化基本概念小节/index.html",
-    "title": "扩散模型（二）",
+    "title": "量化知识梳理",
     "section": "",
-    "text": "阅读全文\n\n阅读全文"
+    "text": "本文是对量化这一技术基本概念的的简单回顾  阅读全文"
   },
   {
     "objectID": "talks/cvpr/index.html",

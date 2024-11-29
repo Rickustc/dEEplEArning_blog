@@ -1,5 +1,5 @@
 ---
-title: "扩散模型（二）"
+title: "量化知识梳理"
 author: "rick"
 date: "2024-11-29"
 categories: [Diffusion model]
@@ -21,7 +21,6 @@ editor_options:
   chunk_output_type: console
 ---
 
-[阅读全文](https://exclusive-muscari-aa9.notion.site/69f5e8e4db6040d2ac743e62efb7c906?pvs=74){.blog-link}
-
+本文是对量化这一技术基本概念的的简单回顾
 <!--more-->
 [阅读全文](https://exclusive-muscari-aa9.notion.site/69f5e8e4db6040d2ac743e62efb7c906?pvs=74)
