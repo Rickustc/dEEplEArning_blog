@@ -20,7 +20,8 @@ knitr:
 editor_options: 
   chunk_output_type: console
 ---
-在本篇博客中，我们将深入探讨扩散模型的高级应用。请点击以下链接直接访问完整内容。
 
+[阅读全文](https://exclusive-muscari-aa9.notion.site/69f5e8e4db6040d2ac743e62efb7c906?pvs=74){.blog-link}
+
+<!--more-->
 [阅读全文](https://exclusive-muscari-aa9.notion.site/69f5e8e4db6040d2ac743e62efb7c906?pvs=74)
-

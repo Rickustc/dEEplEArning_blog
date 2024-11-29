@@ -1,8 +1,8 @@
 {
-  "hash": "13944676b35835162dcf7ec667441b23",
+  "hash": "0e723d5deeab1952bc3f7433982409a3",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"扩散模型（二）\"\nauthor: \"rick\"\ndate: \"2024-11-13\"\ncategories: [Diffusion model]\nimage: \"diffusion model.png\"\nformat: \n  html:\n    code-fold: true\n    code-copy: true  # 代码块显示复制按钮\n    code-overflow: 'scroll'\n    toc: true\n    toc-depth: 3\n    number-sections: true\n    editor: visual\nknitr:\n  opts_chunk: \n    fig.path: \"image/\"\n    collapse: true\n    comment: \"#>|\"\neditor_options: \n  chunk_output_type: console\n---\n",
+    "markdown": "---\ntitle: \"扩散模型（二）\"\nauthor: \"rick\"\ndate: \"2024-11-29\"\ncategories: [Diffusion model]\nformat: \n  html:\n    code-fold: true\n    code-copy: true  # 代码块显示复制按钮\n    code-overflow: 'scroll'\n    toc: true\n    toc-depth: 3\n    number-sections: true\n    editor: visual\nknitr:\n  opts_chunk: \n\n    collapse: true\n    comment: \"#>|\"\neditor_options: \n  chunk_output_type: console\n---\n\n\n\n[阅读全文](https://exclusive-muscari-aa9.notion.site/69f5e8e4db6040d2ac743e62efb7c906?pvs=74){.blog-link}\n\n<!--more-->\n[阅读全文](https://exclusive-muscari-aa9.notion.site/69f5e8e4db6040d2ac743e62efb7c906?pvs=74)",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
