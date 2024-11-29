@@ -5,15 +5,6 @@
     ],
     "blog.qmd": [
       "posts"
-    ],
-    "talks/cvpr2024-diffusion/talks.qmd": [
-      "talks"
-    ],
-    "talks/cvpr2024-diffusion/index.qmd": [
-      "talks"
-    ],
-    "talks/cvpr/index.qmd": [
-      "talks"
     ]
   }
 }

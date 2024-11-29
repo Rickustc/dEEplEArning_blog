@@ -1,0 +1,15 @@
+{
+  "hash": "13944676b35835162dcf7ec667441b23",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"扩散模型（二）\"\nauthor: \"rick\"\ndate: \"2024-11-13\"\ncategories: [Diffusion model]\nimage: \"diffusion model.png\"\nformat: \n  html:\n    code-fold: true\n    code-copy: true  # 代码块显示复制按钮\n    code-overflow: 'scroll'\n    toc: true\n    toc-depth: 3\n    number-sections: true\n    editor: visual\nknitr:\n  opts_chunk: \n    fig.path: \"image/\"\n    collapse: true\n    comment: \"#>|\"\neditor_options: \n  chunk_output_type: console\n---\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

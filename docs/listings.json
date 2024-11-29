@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/量化基本概念小节/index.html",
       "/posts/扩散模型（一）/index.html",
       "/posts/post-with-code/index.html",
       "/posts/welcome/index.html"
@@ -12,17 +13,5 @@
     "items": [
       "/talks/cvpr/index.html"
     ]
-  },
-  {
-    "listing": "/talks/cvpr2024-diffusion/talks.html",
-    "items": []
-  },
-  {
-    "listing": "/talks/cvpr2024-diffusion/index.html",
-    "items": []
-  },
-  {
-    "listing": "/talks/cvpr/index.html",
-    "items": []
   }
 ]

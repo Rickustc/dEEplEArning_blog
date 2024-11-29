@@ -1,0 +1,24 @@
+---
+title: "扩散模型（二）"
+author: "rick"
+date: "2024-11-29"
+categories: [Diffusion model]
+format: 
+  html:
+    code-fold: true
+    code-copy: true  # 代码块显示复制按钮
+    code-overflow: 'scroll'
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    editor: visual
+knitr:
+  opts_chunk: 
+
+    collapse: true
+    comment: "#>|"
+editor_options: 
+  chunk_output_type: console
+---
+
+
